@@ -18,7 +18,6 @@ or established connection failed because connected host has failed to respond</p
 <h3>Solution - Check the STMP server and port are correct</h3>
 
 <h4>(535, b'5.7.8 Username and Password not accepted. Learn more at\n5.7.8 https://support.google.com/mail/?p=BadCredentials s7sm108045lfg.297 - gsmtp')</h4>
-<h3>Solution - Check the username and password,also look at this 'https://www.google.com/settings/security/lesssecureapps' </h3>
-
-<h4>Incorrect configuration: smtp: Smtp no specified port: 587 username: [Your mail] password: [Your pass] To: [Your recipient] From: test Reply_to: [Your Reply_to] `</h4>
+<h3>Solution - Check the username and password,also look at this https://www.google.com/settings/security/lesssecureapps </h3>
+<h4>Validation error for Configuration password field required (type=value_error.missing). This error occurred when initializing node f20bd9f2-a386-48a6-85ce-aa0eea538819.</h4>
 <h3>Check the init, for example here smtp is not specified. The data needed are smtp, port, username,password,to,from</h3>
