@@ -1,7 +1,6 @@
 from tracardi_plugin_sdk.domain.register import Plugin, Spec, MetaData
 from tracardi_plugin_sdk.action_runner import ActionRunner
 from tracardi_plugin_sdk.domain.result import Result
-from sqlalchemy import create_engine
 import smtplib
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
