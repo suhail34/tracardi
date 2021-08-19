@@ -17,7 +17,7 @@ class Discord(ActionRunner):
         handler = logging.FileHandler(filename='discord.log', encoding='utf-8', mode='w')
         handler.setFormatter(logging.Formatter('%(asctime)s:%(levelname)s:%(name)s: %(message)s'))
         logger.addHandler(handler)
-        client.run('ODc1NjkyMDc3NjgwMzEyMzMy.YRZNzA.XPcxXfSCSjhXlZRb6hhOQyKnCFg')
+        client.run('')
 
 
     async def run(self, void):
