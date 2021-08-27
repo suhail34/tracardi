@@ -1,12 +1,12 @@
-<h1>File sending_mail_via_gmail.py file documentation</h1>
+<h1>File sending_mail_via_stmp.py file documentation</h1>
 <h2>Init</h2>
 <h3><p>init={</p>
                 <p>'smtp': "smtp.gmail.com", - Choose a smtp server</p>
                 <p>'port': 587, - Select the port on which stmp will run</p>
                 <p>'username': None, - enter your username</p>
                 <p>'password': None, - enter your password</p>
-                <p>"to": None, - Choose email recipient</p>
-                <p>"from": None, - Choose your email</p>
+                <p>"send_to": None, - Choose email recipient</p>
+                <p>"send_to": None, - Choose your email</p>
                 <p>"replyTo": None,- Select to whom the reply should be sent </p>
                 <p>"title": Select a Title Message,</p>
                 <p>"message": Enter your message, HTML is allowed </p>
